@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/nursanto/tes-jenkins.git'
+        git 'https://github.com/dokspribadi/tes-jenkins.git'
       }
     }
 
